@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Zomato Project</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar__items">
+           <div class="navbar__brand">
+              <img src="./assets/logo.png" alt="zomato logo" class="brand__logo">
+           </div>           
+           <span class="menu space"></span><span class="menu space"></span><span class="menu space"></span>
+           <span class="menu space"></span><span class="menu space"></span><span class="menu space"></span>
+           <span class="menu space"></span><span class="menu space"></span><span class="menu space"></span>
+           <span class="menu space"></span><span class="menu space"></span><span class="menu space"></span>
+           <span class="menu space"></span><span class="menu space"></span><span class="menu space"></span>
+           <span class="menu space"></span><span class="menu space"></span><span class="menu space"></span>
+           <span class="menu space"></span><span class="menu space"></span><span class="menu space"></span>
+           <span class="menu space"></span><span class="menu space"></span><span class="menu space"></span>
+           <span class="menu space"></span><span class="menu space"></span><span class="menu space"></span>
+           <div class="navbar__laptop">
+             <ul class="menu_">
+               <li><a href="#">Login</a></li>
+               <li><a href="#">SignUp</a></li>
+             </ul>
+           </div>
+           <div class="navbar__button">
+            <button class="button__primary hide__mobile">order food</button>
+           </div>
+           <div class="navbar__mobile">
+            <button class="button__primary">Login</button>
+          </div> 
+        </div>          
+     </nav>
+        
+    </header>
+    <main class="container">
+      <!--Hero section -->
+      <section  class="hero__container">
+        <div class="hero__img__container">
+            <img class="hero__image" src="./assets/eating pic.png" alt="hero__image"/>
+            <img src="./assets/svg/heroShape.svg"  alt="hero image shape" class="hero__image__shape"/>
+        </div>
+        <div class="hero__description">
+          <h1 class="hero__text">
+            Order your fav food from Restaurants near by...
+          </h1>
+          <button class="button__primary">Order Now</button>  
+        </div>
+      </section>
+      <section class="video__footage__container">
+        <div class="video__footage">
+          <iframe  src="https://www.youtube-nocookie.com/embed/InqNHkgTX-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video__footage__text">
+          <h2>
+          <p>Eat what makes u happy!&#128516;</p>
+          </h2>
+        </div>
+      </section>
+      <section>
+        <div class="offer">
+          <h2><i><strong> upto 50% off <br> Take it cheeeeesy!</strong></i></h2>
+        </div>
+      </section>
+      <section class="food__list__container">
+        <div><h1 class="text-xl">Explore Our Menu</h1></div><br>
+        
+        <div class="food__list__container__diagonal"></div>
+         <div class="food__menu__card__list">
+          <div class="food__menu__card">
+            <img  src="./assets/img burger.jpg" alt="burger"  class="food__menu__card__image"/>
+            <div class="food__menu__card__details">
+              <h4 class="text-lg"><strong>Burgers</strong></h4>
+              <p>
+                Burger King, Mcdonalds, Burger Place
+                <span style="color: red">+3</span>
+              </p>
+            </div>
+          </div>
+          <div class="food__menu__card food__menu__card__move__up">
+            <img  src="./assets/pizza.jpg"  alt="pizza"  class="food__menu__card__image" />
+            <div class="food__menu__card__details">
+              <h4 class="text-lg"><strong>Pizza</strong></h4>
+              <p>
+                Pizza Hut, Domino's Pizza
+                <span style="color: red">+3</span>
+              </p>
+            </div>
+          </div>
+          <div class="food__menu__card">
+            <img  src="./assets/sandwich image.jpg"   alt="sandwich"  class="food__menu__card__image"  />
+            <div class="food__menu__card__details">
+              <h4 class="text-lg"><strong>Sandwich</strong></h4>
+              <p>
+                Sandwich place,Mcdonalds
+                <span style="color: red">+3</span>
+              </p>
+            </div>
+          </div>                  
+        </div>
+     </section>
+     <section class="food__list__container">
+      <div><h1 class="text-xl">Indo-Chinese Foods</h1></div><br>
+      
+      <div class="food__list__container__diagonal"></div>
+       <div class="food__menu__card__list">
+        <div class="food__menu__card">
+          <img  src="./assets/Fried-Rice-chikki.jpg" alt="Fried Rice"  class="food__menu__card__image"/>
+          <div class="food__menu__card__details">
+            <h4 class="text-lg"><strong>Fried Rice</strong></h4>
+            <p>
+              Chicken fried rice,Egg Fried Rice,
+              <span style="color: red">+5</span>
+            </p>
+          </div>
+        </div>
+        <div class="food__menu__card food__menu__card__move__up">
+          <img  src="./assets/manchurian.jpg"  alt="Manchurian"  class="food__menu__card__image" />
+          <div class="food__menu__card__details">
+            <h4 class="text-lg"><strong>Manchurian</strong></h4>
+            <p>
+              Gobi ,Mushroom ,chicken ,Prawn manchurian
+              <span style="color: red">+3</span>
+            </p>
+          </div>
+        </div>
+        <div class="food__menu__card">
+          <img  src="./assets/soy-sauce-noodlesH2.jpg"   alt="Noodles"  class="food__menu__card__image"  />
+          <div class="food__menu__card__details">
+            <h4 class="text-lg"><strong>Noodles</strong></h4>
+            <p>
+              Chicken noodles,schezwan noodles,Veg noodles
+              <span style="color: red">+4</span>
+            </p>
+          </div>
+        </div>
+        <br>         
+      </div>
+   </section>
+   
+   <section class="food__list__container">
+    <div><h1 class="text-xl">South Indian Foods</h1></div><br>
+    
+    <div class="food__list__container__diagonal"></div>
+     <div class="food__menu__card__list">
+       <div class="food__menu__card">
+         <img  src="./assets/Chicken-Biryani.jpg" alt="Chicken Biryani"  class="food__menu__card__image"/>
+         <div class="food__menu__card__details">
+           <h4 class="text-lg"><strong>Biryani</strong></h4>
+           <p>
+             Chicken,Mutton,Hyderabadi
+             <span style="color: red">+3</span>
+           </p>
+         </div>
+       </div>
+       <div class="food__menu__card food__menu__card__move__up">
+         <img  src="./assets/dosa.jpg"  alt="Dosa"  class="food__menu__card__image" />
+         <div class="food__menu__card__details">
+           <h4 class="text-lg"><strong>Dosa</strong></h4>
+           <p>
+             onion Dosa,Rava Dosa
+             <span style="color: red">+3</span>
+           </p>
+         </div>
+       </div>
+       <div class="food__menu__card">
+         <img  src="./assets/chicken curry.jpg"   alt="Curry"  class="food__menu__card__image"  />
+         <div class="food__menu__card__details">
+           <h4 class="text-lg"><strong>Chicken curry</strong></h4>
+           <p>
+             Chettinad chicken,Pepper Chicken
+             <span style="color: red">+2</span>
+           </p>
+         </div>
+       </div>
+        <br>         
+     </div>
+   </section>
+   <section class="food__list__container">
+    <div><h1 class="text-xl">others</h1></div><br>
+    
+    <div class="food__list__container__diagonal"></div>
+     <div class="food__menu__card__list">
+      <div class="food__menu__card">
+        <img  src="./assets/3milshake.jpg" alt="milshake"  class="food__menu__card__image"/>
+        <div class="food__menu__card__details">
+          <h4 class="text-lg"><strong>Milkshakes</strong></h4>
+          <p>
+            Chocolate,Vanilla,Oreo
+            <span style="color: red">+6</span>
+          </p>
+        </div>
+      </div>
+      <div class="food__menu__card food__menu__card__move__up">
+        <img  src="./assets/orange juice.jpg"  alt="fresh juice"  class="food__menu__card__image" />
+        <div class="food__menu__card__details">
+          <h4 class="text-lg"><strong>Fresh juice</strong></h4>
+          <p>
+            Orange,Mango,Pomegranate
+            <span style="color: red">+4</span>
+          </p>
+        </div>
+      </div>
+      <div class="food__menu__card">
+        <img  src="./assets/falooda pic.jpg"   alt="Noodles"  class="food__menu__card__image"  />
+        <div class="food__menu__card__details">
+          <h4 class="text-lg"><strong>Falooda</strong></h4>
+          <p>
+            Rose falooda,Mango falooda
+            <span style="color: red">+5</span>
+          </p>
+        </div>
+      </div>
+      <br>         
+    </div>
+   </section>
+   <section class="food__list__container">
+    <div><h1 class="text-xl">Desserts</h1></div><br>
+    
+    <div class="food__list__container__diagonal"></div>
+     <div class="food__menu__card__list">
+       <div class="food__menu__card">
+        <img  src="./assets/pastry.jpg" alt="Pastry"  class="food__menu__card__image"/>
+        <div class="food__menu__card__details">
+          <h4 class="text-lg"><strong>Pastry</strong></h4>
+          <p>
+            chocolate fudge,cherry pie
+            <span style="color: red">+2</span>
+          </p>
+        </div>
+       </div>
+       <div class="food__menu__card food__menu__card__move__up">
+        <img  src="./assets/Icecream new.jpg"  alt="Icecream"  class="food__menu__card__image" />
+        <div class="food__menu__card__details">
+          <h4 class="text-lg"><strong>Icecream</strong></h4>
+          <p>
+            Chocolate,Black current,Butterscotch
+            <span style="color: red">+4</span>
+          </p>
+        </div>
+       </div>
+       <div class="food__menu__card">
+        <img  src="./assets/Pudding.png"   alt="Pudding"  class="food__menu__card__image"  />
+        <div class="food__menu__card__details">
+          <h4 class="text-lg"><strong>Pudding</strong></h4>
+          <p>
+            Custard,steamed orange
+            <span style="color: red">+3</span>
+          </p>
+        </div>
+       </div>                  
+     </div>
+     <div class="food__list__view__more">View more</div>
+    </section>
+    <section class="last__quote">
+      <div class="part">
+        <p><h3><i>Hungryyy...!<br>No cooking<br>Only Zomato!</i></h3></p>
+      </div>
+      <div>
+        <img src="./assets/scootty.jpg" alt="zomato scooty" class="scooty">
+      </div>
+    </section>
+    </main>
+    <footer>
+      <div class="footer__part">
+        <section  class="footer__top">
+           <img src="./assets/logo.png" alt="zomato logo"  class="footer__logo">           
+        </section>
+        <section  class="footer__head">
+          <div class="foot bg">
+            <div class="side_head bg">COMPANY</div>
+            <div class="links bg">
+              <p>Who We Are</p>
+              <p>Blog</p>
+              <p>Careers</p>
+              <p>Report Fraud</p>
+              <p>Contact</p>              
+            </div>
+          </div>
+          <div class="foot bg">
+            <div class="side_head bg">FOR FOODIES</div>
+            <div class="links bg">
+              <p>Code of Conduct</p>
+              <p>Community</p>
+              <p>Bloggers Help</p>
+              <p>Mobile Apps</p>
+            </div>
+          </div>
+          <div class="foot bg">
+            <div class="side_head bg">FOR RESTAURANTS</div>
+            <div class="links bg">
+              <p>Add restaurants</p>
+              <p>Business App</p>
+              <p>Restaurant Widgets</p>
+              <p>Product for Business</p>
+            </div>
+          </div>
+          <div class="foot bg">
+            <div class="side_head bg">FOR YOU</div>
+            <div class="links bg">
+              <p>Privacy</p>
+              <p>Terms</p>
+              <p>Security</p>
+              <p>Sitemap</p>
+            </div>
+          </div>
+        </section>
+        <div class="copyright">
+         <p>Copyright©2021 Zomato™ Ltd. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
